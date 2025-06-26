@@ -6,11 +6,14 @@ package Lists;
 
 /**
  *
+<<<<<<< HEAD
  * @author Farid
  */
 public interface List <T> {
     public boolean add(T t);
     
-    public void showAll();
+    public boolean remove(T t);
     
+    public void showAll();
+
 }
