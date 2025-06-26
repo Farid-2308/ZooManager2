@@ -8,6 +8,7 @@ package Lists;
  *
  * @author UTN
  */
-public interface List {
+public interface List <T>{
+    public boolean remove(T t);
     
 }
